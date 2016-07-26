@@ -50,6 +50,7 @@
 
   articleView.renderIndexPage = function() {
     $('#ajax-spinner').fadeOut();
+    console.log('renderIndexPage ran')
     $('#filters').fadeIn();
     Article.allArticles.forEach(function(a){
       if($('#category-filter option:contains("'+ a.category + '")').length === 0) {
@@ -65,6 +66,7 @@
     articleView.handleAuthorFilter();
     articleView.setTeasers();
   };
+
   Article.fetchAll(articleView.renderIndexPage);
   module.articleView = articleView;
 })(window);

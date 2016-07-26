@@ -2,7 +2,7 @@
   var aboutController = {};
 
   aboutController.reveal = function() {
-    /* TODO: Reveal only the about section! */
+    /* TODO DONE: Reveal only the about section! */
     $('.tab-content').hide();
 
     $('#about').fadeIn();

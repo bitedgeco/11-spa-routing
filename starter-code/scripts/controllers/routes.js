@@ -2,7 +2,9 @@
     by registering each URL your app can handle, linked to a
     single controller function to handle it: */
 
-page();
+$(document).ready(function(){
+	page();
+});
 page('/' , article);
 page('/about', about);
 
