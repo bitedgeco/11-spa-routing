@@ -3,11 +3,9 @@
 
   articleController.reveal = function() {
 
-  	// Article.fetchAll(articleView.renderIndexPage);
+    $('.tab-content').hide();
 
-  	$('.tab-content').hide();
-
-  	$('#articles').fadeIn();
+    $('#articles').fadeIn();
 
   };
 

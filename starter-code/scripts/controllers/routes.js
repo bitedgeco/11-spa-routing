@@ -4,19 +4,17 @@
 
 page();
 page('/' , article);
-// page('/about', about);
+page('/about', about);
 
 function article() {
-	articleController.reveal();
-	console.log('article() ran')
+  articleController.reveal();
+  console.log('article() ran');
 }
 
-// function article() {
-// 	articleController.reveal();
-// 	console.log('article() ran')
-// }
+function about() {
+  aboutController.reveal();
+  console.log('about() ran');
+}
 
 /* TODO DONE: What function do we call to activate page.js?
     Fire it off now, to execute it: */
-
-// page();
