@@ -2,7 +2,13 @@
   var articleController = {};
 
   articleController.reveal = function() {
-    /* TODO: Reveal only the articles section! */
+
+  	// Article.fetchAll(articleView.renderIndexPage);
+
+  	$('.tab-content').hide();
+
+  	$('#articles').fadeIn();
+
   };
 
   module.articleController = articleController;

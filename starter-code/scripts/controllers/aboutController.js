@@ -5,5 +5,5 @@
     /* TODO: Reveal only the about section! */
   };
 
-  module.aboutController = aboutController;
+  module.aboutController = aboutController; 
 })(window);
